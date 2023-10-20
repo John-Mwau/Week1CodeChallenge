@@ -1,6 +1,6 @@
 
 function studentGrade(){
-    let studentScore=parseFloat(prompt('Enter Student Score'));// Prompts the user to enter a number; either integer or a float.
+    let studentScore= 50;// Prompts the user to enter a number; either integer or a float.
     let grade;
     if(studentScore>=79 && studentScore<=100){//checks if score its within the given range: If true; returns A
         return (grade= 'A');
